@@ -1,0 +1,3 @@
+include ':suplibs'
+include ':app'
+rootProject.name = "SupportTest"
