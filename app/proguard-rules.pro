@@ -19,3 +19,12 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# LzSDK混淆保留类
+-keep class com.lianzhuoxinxi.lzxx_sdk.open.ad.** {*;}
+-keep class com.lianzhuoxinxi.lzxx_sdk.open.admanager.** {*;}
+-keep class com.lianzhuoxinxi.lzxx_sdk.open.error.** {*;}
+-keep class com.lianzhuoxinxi.lzxx_sdk.open.listener.** {*;}
+-keep class com.lianzhuoxinxi.lzxx_sdk.open.LzAdSdk {*;}
+-keep class com.lianzhuoxinxi.lzxx_sdk.open.LzAdManager {*;}
+-keep class com.lianzhuoxinxi.lzxx_sdk.data.** {*;}
